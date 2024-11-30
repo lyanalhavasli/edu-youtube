@@ -14,3 +14,13 @@ YouTube Data:
 Use Google Takeout to export the YouTube watch history.
 Academic Data:
 Compile a list of courses and their respective midterm dates and subject areas.
+2. Data Preparation
+Data Cleaning:
+Remove irrelevant entries (e.g., non-academic YouTube videos).
+Handle missing or inconsistent data.
+Ensure all timestamps are in a consistent timezone (e.g., local time).
+Data Transformation:
+Convert timestamps to datetime objects.
+Categorize YouTube videos as course-related or non-course-related using keyword matching, video descriptions, and metadata.
+Keywords: Use course titles, subject areas, and relevant topics to identify related videos.
+Annotate videos with the corresponding course subject if applicable.
