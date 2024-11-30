@@ -1,6 +1,6 @@
 # edu-youtube
 ## Dataset Description
-1. YouTube Watch History
+YouTube Watch History
 Source: Will be exported from personal YouTube watch history using Google Takeout.
 Expected Contents:
 Video Titles: Titles of all watched videos.
