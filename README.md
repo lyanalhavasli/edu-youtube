@@ -63,10 +63,28 @@ The data for this project was sourced from ChatGPT's conversation export feature
 
 * The above scatterplot visualizes the relationship between the time spent on a conversation (in minutes) and the total number of messages exchanged during that conversation. The analysis included both Pearson and Spearman correlation tests to investigate the nature of the relationship:
 
-** Pearson Correlation: The Pearson correlation coefficient was calculated as 0.162, with a p-value of 0.148. This result suggests no significant linear relationship between conversation duration and message count, as we fail to reject the null hypothesis at the 0.05 significance level.
-** Spearman Correlation: The Spearman correlation coefficient was 0.848, with a highly significant p-value of 1.687e-23. This indicates a strong monotonic relationship between the two variables, where longer conversations tend to have more messages.
+* Pearson Correlation: The Pearson correlation coefficient was calculated as 0.162, with a p-value of 0.148. This result suggests no significant linear relationship between conversation duration and message count, as we fail to reject the null hypothesis at the 0.05 significance level.
+* Spearman Correlation: The Spearman correlation coefficient was 0.848, with a highly significant p-value of 1.687e-23. This indicates a strong monotonic relationship between the two variables, where longer conversations tend to have more messages.
 
 While the Pearson test shows no linear correlation, the Spearman test highlights a significant monotonic relationship, suggesting that while the relationship may not be strictly linear, there is a clear trend where longer durations are associated with more messages. This highlights the complex nature of user interaction, where extended conversations often involve higher engagement.
+
+# Analysis of Average Query Lengths Across 5 ChatGPT Models
+
+![image](https://github.com/user-attachments/assets/d059f607-9ea6-4780-b966-0e803030d17a)
+
+* The bar chart above illustrates the average length of user queries (in words) submitted to different ChatGPT models. A clear variation in query lengths is observed, with the highest average length recorded for the model gpt-o1 and gpt-o1-preview, while gpt-4 and gpt-4-0 have relatively consistent and moderate query lengths. The shortest queries are associated with the gpt-mini model.
+
+To test whether the observed averages match an expected uniform distribution, a Chi-Square Goodness-of-Fit Test was conducted. The results were as follows:
+
+* Chi-Square Statistic: 333.21
+* P-Value: 7.40e-71
+With a p-value significantly below the significance level of 0.05, we reject the null hypothesis. This indicates that the average query lengths are not uniformly distributed across the models. The result underscores the variability in user interaction patterns, suggesting that the nature of user queries varies substantially based on the model being used. This makes sense as I tend to ask the more complex questions (which are typically longer) to newer, higher-intelligence models.
+
+# Limitations
+While this analysis provides valuable insights into ChatGPT usage patterns, it is not without limitations. First, the data is inherently user-driven, meaning it reflects the behavior of a specific user base and may not generalize to all ChatGPT interactions. Second, the analysis relies on the assumption that timestamps and message counts accurately represent activity and engagement, but nuances such as conversational pauses or multitasking during interactions are not captured. Additionally, the statistical tests used assume independence of observations, which may not always hold true for consecutive queries from the same user. Furthermore, the dataset does not include contextual information about the queries, such as the intent or topic, which could provide deeper insights into user behavior. Lastly, the analysis assumes uniform expected distributions for hypothesis testing, which may oversimplify the complex factors influencing user behavior. These limitations highlight areas for refinement in future analyses.
+
+# Future Work
+This analysis serves as a foundation for understanding ChatGPT usage patterns, but there are several directions for future work. A deeper exploration into the context and intent behind queries could provide richer insights into user behavior and engagement. Incorporating natural language processing (NLP) techniques to classify queries by topic or sentiment would allow for more nuanced findings. Additionally, extending the analysis to include multiple users or larger datasets could reveal broader trends and improve the generalizability of the results. Time-series analysis or clustering techniques could be applied to identify patterns over different periods or among user groups. Moreover, investigating external factors, such as time zones, user demographics, or application contexts, could uncover additional correlations. Finally, refining the statistical models and testing assumptions about distributions could lead to more robust conclusions, making the analysis more accurate and actionable.
 
 
 
