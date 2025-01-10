@@ -27,7 +27,7 @@ The data for this project was sourced from ChatGPT's conversation export feature
 
 ![image](https://github.com/user-attachments/assets/7cc7eb28-9529-4df4-aab0-fe7fe832ad5d)
 
-* Tuesday Query Analysis: A Chi-Square goodness-of-fit test was conducted to evaluate whether the queries were uniformly distributed throughout the day. The observed data revealed specific peaks, particularly around 4 PM and moderate activity during evening hours. The statistical test produced a Chi-Square value of 49.71 and a p-value of 2.55e-05, which is significantly below the significance level of 0.05. Consequently, the null hypothesis was rejected, confirming that the distribution of queries on Tuesday was not uniform.
+* Tuesday Query Analysis: A Chi-Square goodness-of-fit test was conducted to evaluate whether the queries were uniformly distributed throughout the day. The observed data revealed specific peaks, particularly around 4 PM and moderate activity during evening hours. The statistical test produced a Chi-Square value of 49.71 and a p-value of 2.55e-05, which is significantly below the significance level of 0.05. Consequently, the null hypothesis was rejected, confirming that the distribution of queries on Tuesday was not uniform. The peak on Tuesday is ironically during my DSA 210 class:)
 
 ![image](https://github.com/user-attachments/assets/34bcdf55-01d5-486e-ad79-4c42f403ab71)
 
@@ -35,7 +35,7 @@ The data for this project was sourced from ChatGPT's conversation export feature
 
 ![image](https://github.com/user-attachments/assets/7bdaffb2-0bf8-47bf-9e18-23f27632e607)
 
-* Thursday Query Analysis: The graph for Thursday reveals a pattern in ChatGPT usage, with prominent activity peaks at midnight and late evening hours around 10 PM to 11 PM. A Chi-Square goodness-of-fit test was conducted to evaluate whether the distribution of queries followed a uniform pattern throughout the day. The test resulted in a Chi-Square statistic of 46.56 and a p-value of 5.55e-06, which is significantly below the significance level of 0.05. As a result, the null hypothesis was rejected, confirming that the distribution of queries on Thursday was not uniform.
+* Thursday Query Analysis: The graph for Thursday reveals a pattern in ChatGPT usage, with prominent activity peaks at midnight and late evening hours around 10 PM to 11 PM. A Chi-Square goodness-of-fit test was conducted to evaluate whether the distribution of queries followed a uniform pattern throughout the day. The test resulted in a Chi-Square statistic of 46.56 and a p-value of 5.55e-06, which is significantly below the significance level of 0.05. As a result, the null hypothesis was rejected, confirming that the distribution of queries on Thursday was not uniform. 
 
 ![image](https://github.com/user-attachments/assets/87b77c5d-ea98-42f9-a7a1-ac6ed3441fc7)
 
