@@ -13,10 +13,15 @@ The data for this project was sourced from ChatGPT's conversation export feature
 
 - Next, exploratory data analysis (EDA) was conducted using visualizations, such as bar charts and scatter plots, to identify trends and patterns. Temporal analysis highlighted query distributions across days of the week and hours of the day, while model-specific analysis examined the usage of different ChatGPT versions. Correlation analysis was employed to investigate relationships between conversation duration and the number of messages exchanged.
 
-To validate observations, statistical hypothesis testing was used, including chi-square tests for categorical distributions and Pearson correlation tests for continuous relationships. These techniques ensured that the conclusions drawn were statistically significant and data-driven. This multi-stage analysis approach provided a holistic understanding of my ChatGPT usage patterns, from raw data processing to deriving actionable insights.
+* To validate observations, statistical hypothesis testing was used, including chi-square tests for categorical distributions and Pearson correlation tests for continuous relationships. These techniques ensured that the conclusions drawn were statistically significant and data-driven. This multi-stage analysis approach provided a holistic understanding of my ChatGPT usage patterns, from raw data processing to deriving actionable insights.
 
 ## Findings
+Number of Queries Across the Time of Day
+![image](https://github.com/user-attachments/assets/635c4a5b-0377-4145-a92f-efba31218ec5)
 
+* I started by analyzing the distribution of queries throughout the day. The graph above provides an overview of my activity levels across different hours, showcasing that the most active hours  I interacted with ChatGPT were at . This visualization sets the foundation for a deeper dive into the trends observed on specific days of the week, revealing potential patterns in how my usage aligns with my daily schedule and routines. In the following section, I will present and analyze individual graphs for each day of the week to uncover more nuanced insights into my interaction patterns.
+
+* 
 
 
 
