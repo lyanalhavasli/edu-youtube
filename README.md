@@ -1,4 +1,4 @@
-# edu-youtube
+# edu-youtube // My ChatGpt Usage Data Analysis
 ## My Youtube Watch-Exams Correlation
 ## Dataset Description
 YouTube Watch History
