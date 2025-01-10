@@ -1,31 +1,15 @@
-# edu-youtube // My ChatGpt Usage Data Analysis
-## My Youtube Watch-Exams Correlation
-## Dataset Description
-YouTube Watch History
-Source: Will be exported from personal YouTube watch history using Google Takeout.
-Expected Contents:
-Video Titles: Titles of all watched videos.
-Timestamps: Dates and times when each video was watched.
-Video URLs: Links to the watched videos.
-Channel Information: Names of the channels from which videos were watched.
-Video Descriptions: Additional metadata that may help categorize videos.
-Project Plan and Methodology
-## Data Collection
-YouTube Data:
-Use Google Takeout to export the YouTube watch history.
-Academic Data:
-Compile a list of courses and their respective midterm dates and subject areas.
-## Data Preparation
-Data Cleaning:
-Remove irrelevant entries (e.g., non-academic YouTube videos).
-Handle missing or inconsistent data.
-Ensure all timestamps are in a consistent timezone (e.g., local time).
-Data Transformation:
-Convert timestamps to datetime objects.
-Categorize YouTube videos as course-related or non-course-related using keyword matching, video descriptions, and metadata.
-Keywords: Use course titles, subject areas, and relevant topics to identify related videos.
-Annotate videos with the corresponding course subject if applicable.
-## Data Integration
-Align Datasets:
-Map YouTube video timestamps to the sabnaci exam email announcements to identify if they fall within midterm seasons.
-Create a unified timeline to visualize and analyze YouTube viewing activity relative to midterm dates.
+# My ChatGpt Usage Data Analysis DSA 210 Project
+## Description
+This project focuses on analyzing my ChatGPT usage, leveraging data exported from ChatGPT in JSON format. The primary goal of this analysis is to uncover patterns and trends in my interactions with ChatGPT, offering insights into my usage behavior. Through visualizations and statistical analyses, the project explores the frequency and timing of queries across different days of the week and hours of the day, examines query distribution among various ChatGPT model versions, and investigates relationships between conversation lengths and the time spent on them. Bar charts, scatter plots, and other visual tools are used to highlight these patterns, while statistical tests, such as chi-square tests and correlation analyses, validate the findings.
+
+
+
+
+
+
+
+
+
+
+
+
